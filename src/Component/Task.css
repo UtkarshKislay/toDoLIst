@@ -1,0 +1,25 @@
+.task{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  border: 2px solid black;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.taskName{
+   font-family: sans-serif;
+   font-size: 2rem;
+   flex: 1.5;
+}
+.taskfunction{
+  display: flex;
+  flex-direction: row;
+  flex: 0.5;
+}
+.edit,.complete,.delete{
+    font-size: 1.7rem;
+}
+.edit,.complete,.delete :hover{
+    cursor: pointer;
+}
